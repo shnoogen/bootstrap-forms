@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>La La Land</title>
+
+  <link href="css/bootstrap.css" rel="stylesheet">
+</head>
+
+<body>
+<!--Note: NO <p>, NO <ul>, NO <li>-->
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+    <form>
+        <h1> How much do you know about "La La Land"?</h1>
+
+        <p>"La La Land" is a musical film directed by Damien Chazelle and premiered on December 6, 2016. It featured Oscar winner, Emma Stone, and Oscar nominee, Ryan Gosling, as their two characters navigate the entertainment industry and the pursuit of their respective dreams.</p>
+
+        <p>Test your "La La Land" knowledge with this quiz! All information comes from its <a href="https://en.wikipedia.org/wiki/La_La_Land_%28film%29">
+          Wikipedia</a> page.</p>
+
+<fieldset class="form-group">
+
+      <div class="form-group">
+        <label class="form-check-label" for="filmLocation">1. Where was "La La Land" primarily filmed?</label>
+          <input class="form-control" type="text" name="filmLocation" id="filmLocation">
+      </div> <!-- single-line-->
+
+      <div class="form-group">
+        <label class="form-control-label">2. What jazz instrument did Ryan Gosling's character, Sebastian, play?</label>
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="instrument" value="Saxophone">Saxophone
+            </label>
+          </div>
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="instrument" value="Piano">Piano
+            </label>
+          </div>
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="instrument" value="Trumpet">Trumpet
+            </label>
+          </div>
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="instrument" value="Cello">Cello
+            </label>
+          </div><!--radio-->
+      </div> <!--radio-->
+
+      <div class="form-group">
+        <label class="form-control-label" for="firstMovie">3. What movie did Sebastian and Emma Stone's character, Mia, first see together?
+          <input class="form-control" type="text" name="firstMovie" id="firstMovie">
+        </label>
+      </div> <!-- single-line-->
+
+      <div class="form-group">
+        <label class="form-control-label">4. Which Oscars did "La La Land" win at the 89th Academy Awards? (check all that apply)</label>
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="award" value="Best Picture">Best Picture
+            </label>
+          </div>
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="award" value="Best Director">Best Director
+            </label>
+          </div>
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="award" value="Best Actress">Best Actress
+            </label>
+          </div>
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="award" value="Best Actor">Best Actor
+            </label>
+          </div>
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="award" value="Best Original Screenplay">Best Original Screenplay
+            </label>
+          </div>
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="award" value="Best Costume Design">Best Costume Design
+            </label>
+          </div>
+
+      </div> <!--checkbox-->
+
+      <div class="form-group">
+        <label class="form-control-label" for="oscarNoms">5. List as many of the categories that "La La Land" was nominated for as you can! (Hint: There's 14 of them!)</label>
+          <textarea class="form-control" name="oscarNoms" id="oscarNoms" placeholder="Best everything!" rows=5></textarea>
+      </div> <!--textarea-->
+
+      <div class="form-group">
+        <label class="form-control-label">6. Last, but not least, what was your favorite song in "La La Land"?</label>
+          <select class="form-control" name="favSong">
+            <option>Another Day of Sun</option>
+            <option>Someone in the Crowd</option>
+            <option>A Lovely Night</option>
+            <option>City of Stars (Solo)</option>
+            <option>City of Stars (Duet)</option>
+            <option>Start a Fire</option>
+            <option>Audition (The Fools Who Dream)</option>
+            <option>City of Stars (Humming)</option>
+          </select>
+      </div> <!--dropdown-->
+
+      <button class="btn btn-primary" type="submit" value="Submit">Submit</button>
+      <button class="btn btn-secondary" type="reset" value="Try Again">Try Again</button>
+
+    </fieldset>
+    </form>
+  </div> <!--column div-->
+</div> <!-- row div-->
+</div> <!-- container div-->
+
+</body>
+</html>
+
+<!-- don't forget to: title, add wikipedia link, remove bullet points, labels and ids, -->
